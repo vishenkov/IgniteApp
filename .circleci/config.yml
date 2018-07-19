@@ -1,3 +1,4 @@
+version: 2
 aliases:
   - &install-node-dependencies
     |
@@ -10,8 +11,6 @@ jobs:
     <<: *defaults
     macos:
       xcode: "9.0"
-    dependencies:
-      pre:
 
     steps:
       - checkout
