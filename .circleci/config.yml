@@ -40,5 +40,5 @@ workflows:
 
   build:
     jobs:
-      - test-js
+      # - test-js
       - test-ios
